@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.turn</groupId>
+  <artifactId>ttorrent-cli</artifactId>
+  <versioning>
+    <versions>
+      <version>1.5-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150610124102</lastUpdated>
+  </versioning>
+</metadata>

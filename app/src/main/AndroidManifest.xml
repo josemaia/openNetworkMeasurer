@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="maia.jose.openNetworkMeasurer">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MeasurementTheme"
+        android:name="com.orm.SugarApp"
+        tools:replace="android:icon,android:theme">
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="maia.jose.openNetworkMeasurer.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="maia.jose.openNetworkMeasurer.wifi.WifiMeasurementActivity"
+            android:label="@string/title_activity_wifi_measurement"
+            android:parentActivityName="maia.jose.openNetworkMeasurer.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="maia.jose.openNetworkMeasurer.MainActivity" />
+        </activity>
+        <activity
+            android:name="maia.jose.openNetworkMeasurer.cell.CellularMeasurementActivity"
+            android:label="@string/title_activity_cellular_measurement"
+            android:parentActivityName="maia.jose.openNetworkMeasurer.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="maia.jose.openNetworkMeasurer.MainActivity" />
+        </activity>
+        <activity
+            android:name="maia.jose.openNetworkMeasurer.PreviousMeasurementActivity"
+            android:label="@string/title_activity_previous_measurement"
+            android:parentActivityName="maia.jose.openNetworkMeasurer.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="maia.jose.openNetworkMeasurer.MainActivity" />
+        </activity>
+        <activity
+            android:name="maia.jose.openNetworkMeasurer.SpeedTestActivity"
+            android:label="@string/title_activity_speedtest"
+            android:parentActivityName="maia.jose.openNetworkMeasurer.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="maia.jose.openNetworkMeasurer.MainActivity" />
+        </activity>
+        <activity
+            android:name="maia.jose.openNetworkMeasurer.ServerSyncActivity"
+            android:label="@string/title_activity_serversync"
+            android:parentActivityName="maia.jose.openNetworkMeasurer.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="maia.jose.openNetworkMeasurer.MainActivity" />
+        </activity>
+        <activity
+            android:name="maia.jose.openNetworkMeasurer.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="maia.jose.openNetworkMeasurer.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="maia.jose.openNetworkMeasurer.MainActivity" />
+        </activity>
+        <activity
+            android:name="maia.jose.openNetworkMeasurer.ViewMapActivity"
+            android:label="@string/title_viewmap_activity"
+            android:parentActivityName="maia.jose.openNetworkMeasurer.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="maia.jose.openNetworkMeasurer.MainActivity" />
+        </activity>
+        <meta-data android:name="DATABASE" android:value="measurements.db" />
+        <meta-data android:name="VERSION" android:value="3" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="maia.jose.measurementtest.sqlite" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2eb2c1876135aabb778285044a5c325036b0d15e" />
+    </application>
+</manifest>

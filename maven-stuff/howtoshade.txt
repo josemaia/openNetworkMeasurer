@@ -1,0 +1,1 @@
+http://simpligility.github.io/android-maven-plugin/shaded-commons-codec.html

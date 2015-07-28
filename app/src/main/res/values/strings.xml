@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenNetworkMeasurer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="main_menu_measure_cellular">Measure (Cellular)</string>
+    <string name="main_menu_measure_wifi">Measure (Wifi)</string>
+    <string name="main_menu_see_measurements">See Previous Measurements</string>
+    <string name="main_menu_speedtest">Perform Speedtest</string>
+    <string name="main_menu_serversync">Send data to Server</string>
+    <string name="main_menu_viewmap">View Coverage Map</string>
+    <string name="title_activity_wifi_measurement">Wifi Measurement</string>
+    <string name="title_activity_cellular_measurement">Cellular Measurement</string>
+    <string name="title_activity_speedtest">Speed Test</string>
+    <string name="title_activity_serversync">Server Synchronization</string>
+    <string name="title_activity_previous_measurement">Saved Measurements</string>
+    <string name="title_viewmap_activity">View Coverage Map</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="no_location_detected">No location detected…</string>
+    <string name="btn_post">Send Info to server</string>
+    <string name="torrent_speedtest">Torrent Speedtest</string>
+    <string name="regular_speedtest">Regular Speedtest</string>
+    <string name="wifi_instant">Instant wifi measurement?</string>>
+    <string name="wifi_instant_summ_on">Only performed once</string>
+    <string name="wifi_instant_summ_off">Performed over time</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="statistics_display">Display statistics?</string>>
+    <string name="statistics_display_on">Display all statistics</string>
+    <string name="statistics_display_off">Only display average values</string>
+</resources>

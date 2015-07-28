@@ -1,0 +1,6 @@
+<resources>
+    <style name="mainMenuButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/measurementColor</item>
+        <item name="android:colorPrimary">@color/measurementColor</item>
+    </style>
+</resources>

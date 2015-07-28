@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jun 10 12:58:24 BST 2015
+commons-codec-shaded-1.8.jar>=
+commons-codec-shaded-1.8.pom>=
+commons-codec-shaded-1.8-sources.jar>=

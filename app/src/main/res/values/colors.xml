@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="measurementColor">#4CAF50</color>
+    <color name="measurementColorDark">#388E3C</color>
+    <color name="measurementColorLight">#C8E6C9</color>
+    <color name="measurementColorAccent">#ffffff</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="divider">#B6B6B6</color>
+    <array name="programColors">
+        <item>@color/measurementColor</item>
+        <item>@color/measurementColorDark</item>
+        <item>@color/measurementColorLight</item>
+        <item>@color/measurementColorAccent</item>
+    </array>
+</resources>

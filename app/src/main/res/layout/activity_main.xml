@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity" tools:ignore="MergeRootFrame"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+        android:text="@string/main_menu_measure_cellular"
+        android:id="@+id/button_measure_cellular"
+            style="@style/mainMenuButton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/main_menu_measure_wifi"
+        android:id="@+id/button_measure_wifi"
+        android:backgroundTint="@color/measurementColor"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/main_menu_see_measurements"
+        android:id="@+id/button_see_measurements"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/main_menu_speedtest"
+        android:id="@+id/button_speedtest"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/main_menu_serversync"
+        android:id="@+id/button_serversync" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/main_menu_viewmap"
+        android:id="@+id/button_viewmap" />
+
+
+    </LinearLayout>
+</ScrollView>
