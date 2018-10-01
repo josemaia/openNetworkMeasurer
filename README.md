@@ -1,9 +1,6 @@
 # openNetworkMeasurer
 
-Hello! My name is José Maia, and this is the Android client I developed for the project in my Master's dissertation.
-
-
-The project is deployed at http://fedora-srv01.alunos.dcc.fc.up.pt/, although the servers have been spotty lately.
+This is the Android client I developed for the project in my Master's dissertation. It is destined to obtain Wi-Fi/Cellular measurements from smartphones and send them to a server that will process them, also available on [GitHub](https://github.com/josemaia/openNetworkMeasurer-server).
 
 # To run
 
